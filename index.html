@@ -3,82 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MB Group | Premier Construction & Government Contractors</title>
-    <meta name="description" content="MB Group: Specialists in Government Contracts, Infrastructure Redevelopment, and Professional Manpower Supply. Delivering excellence in construction.">
+    <title>MB Group | Excellence in Infrastructure & Manpower</title>
+    <meta name="description" content="MB Group: Leading Government Contractors and Redevelopment Experts. Specialist providers of professional Manpower Supply for mega-infrastructure projects.">
     
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
     <nav class="navbar">
-        <div class="logo">MB GROUP</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+        <div class="nav-container">
+            <a href="#" class="logo">MB<span>GROUP</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#divisions">Divisions</a></li>
+                <li><a href="#contact" class="nav-cta">Work With Us</a></li>
+            </ul>
         </div>
     </nav>
 
-    <header id="home" class="hero">
+    <header id="home" class="premium-hero">
+        <div class="overlay"></div>
         <div class="hero-content" data-aos="fade-up">
-            <h1>Building Tomorrow's Infrastructure</h1>
-            <p>Experts in Government Contracts, Redevelopment, and Global Manpower Supply.</p>
-            <a href="#services" class="btn">Explore Our Projects</a>
+            <span class="badge">ESTABLISHED 1998</span>
+            <h1>Engineering <span>National</span> Growth</h1>
+            <p>From strategic government infrastructure to large-scale urban redevelopment and elite manpower logistics.</p>
+            <div class="hero-btns">
+                <a href="#expertise" class="btn-primary">Our Expertise</a>
+                <a href="#contact" class="btn-secondary">Request a Quote</a>
+            </div>
         </div>
     </header>
 
-    <section id="services" class="services">
-        <h2 class="section-title">Our Core Expertise</h2>
-        <div class="services-grid">
-            <div class="service-card" data-aos="zoom-in">
-                <i class="fas fa-landmark"></i>
-                <h3>Government Contracts</h3>
-                <p>Handling large-scale public infrastructure with strict compliance and quality.</p>
-            </div>
-            <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
-                <i class="fas fa-city"></i>
-                <h3>Redevelopment</h3>
-                <p>Revitalizing urban landscapes through modern engineering and architecture.</p>
-            </div>
-            <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
-                <i class="fas fa-users-cog"></i>
-                <h3>Manpower Supply</h3>
-                <p>Providing skilled and un-skilled professional labor for mega-projects.</p>
+    <section id="expertise" class="stats-bar">
+        <div class="stat-item" data-aos="fade-up">
+            <h3>50+</h3>
+            <p>Govt. Projects</p>
+        </div>
+        <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+            <h3>1200+</h3>
+            <p>Skilled Manpower</p>
+        </div>
+        <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+            <h3>15+</h3>
+            <p>Cities Covered</p>
+        </div>
+    </section>
+
+    <section id="divisions" class="divisions">
+        <div class="container">
+            <h2 class="section-head">Core Business Units</h2>
+            <div class="division-grid">
+                <div class="card" data-aos="fade-right">
+                    <div class="card-img govt-img"></div>
+                    <div class="card-body">
+                        <i class="fas fa-gavel"></i>
+                        <h3>Government Contracts</h3>
+                        <p>Execution of high-security public infrastructure and civil engineering works with Class-A compliance.</p>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-up">
+                    <div class="card-img redev-img"></div>
+                    <div class="card-body">
+                        <i class="fas fa-city"></i>
+                        <h3>Redevelopment</h3>
+                        <p>Modernizing legacy structures into high-performance urban hubs using sustainable engineering.</p>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-left">
+                    <div class="card-img manpower-img"></div>
+                    <div class="card-body">
+                        <i class="fas fa-users-gear"></i>
+                        <h3>Manpower Supply</h3>
+                        <p>Logistics and supply of certified technical manpower for oil & gas, metro, and heavy industry.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <div class="contact-container" data-aos="fade-right">
-            <h2>Get In Touch</h2>
-            <form id="contact-form">
-                <input type="text" placeholder="Full Name" required>
-                <input type="email" placeholder="Email Address" required>
+    <section id="contact" class="contact-section">
+        <div class="contact-card" data-aos="zoom-in">
+            <h2>Let's Discuss Your Project</h2>
+            <form id="pro-form">
+                <div class="form-row">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Official Email" required>
+                </div>
                 <select required>
-                    <option value="" disabled selected>Select Interest</option>
-                    <option value="govt">Government Contract</option>
-                    <option value="redev">Redevelopment</option>
-                    <option value="manpower">Manpower Supply</option>
+                    <option value="" disabled selected>Select Division</option>
+                    <option>Government Tenders</option>
+                    <option>Society Redevelopment</option>
+                    <option>Manpower Sourcing</option>
                 </select>
-                <textarea placeholder="Tell us about your project" rows="5"></textarea>
-                <button type="submit" class="btn-submit">Submit Inquiry</button>
+                <textarea placeholder="Brief about project scope..." rows="4"></textarea>
+                <button type="submit" class="submit-btn">Send Proposal</button>
             </form>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 MB Group. All Rights Reserved. | <a href="#">Privacy Policy</a></p>
+        <div class="footer-bottom">
+            <p>&copy; 2026 MB Group Infrastructure Ltd. | Certified Government Contractor</p>
+        </div>
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script>AOS.init({ duration: 1000, once: true });</script>
 </body>
 </html>
