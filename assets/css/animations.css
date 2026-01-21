@@ -1,0 +1,22 @@
+/* Kinetic Text Effect */
+.hero-text h1 {
+    animation: float 4s ease-in-out infinite;
+    text-shadow: 0 0 20px rgba(197, 160, 89, 0.4);
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+
+/* Shimmer Effect for Buttons */
+.submit-premium:hover {
+    background: linear-gradient(90deg, #c5a059, #e6d2a4, #c5a059);
+    background-size: 200%;
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    0% { background-position: 0%; }
+    100% { background-position: 200%; }
+}
