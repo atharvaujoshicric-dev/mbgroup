@@ -5,73 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MB Group | Leading Govt. Infrastructure & Manpower</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/animations.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-    <nav class="glass-nav">
-        <div class="logo">MB<span>GROUP</span></div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Legacy</a></li>
-            <li><a href="#services">Divisions</a></li>
-            <li><a href="#contact" class="btn-cta">Start Consultation</a></li>
-        </ul>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-logo">
+                <img src="assets/images/logo.png" alt="MB Group Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">The Legacy</a></li>
+                <li><a href="#divisions">Divisions</a></li>
+                <li><a href="#contact" class="nav-btn">Get a Quote</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <section id="home" class="hero-premium">
-        <div class="video-overlay"></div>
-        <div class="hero-text" data-aos="zoom-out">
-            <h1 class="kinetic-text">BUILDING <span>NATIONS</span></h1>
-            <p>Institutional Excellence in Government Contracts & Global Manpower Logistics.</p>
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1500">
+            <span class="badge">ESTABLISHED 1998</span>
+            <h1>Engineering <span>National</span> Growth</h1>
+            <p>Institutional Excellence in Government Contracts, Redevelopment, and Global Manpower Supply.</p>
+        </div>
+    </header>
+
+    <section class="stats-section">
+        <div class="stat-container">
+            <div class="stat-card" data-aos="zoom-in">
+                <h2 class="counter">50+</h2>
+                <p>Govt. Projects</p>
+            </div>
+            <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                <h2 class="counter">1200+</h2>
+                <p>Skilled Manpower</p>
+            </div>
+            <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                <h2 class="counter">15+</h2>
+                <p>Cities Covered</p>
+            </div>
         </div>
     </section>
 
-    <section id="services" class="bento-section">
-        <h2 class="section-title">Core Operations</h2>
+    <section id="divisions" class="bento-container">
+        <h2 class="section-title" data-aos="fade-right">Core Business Units</h2>
         <div class="bento-grid">
-            <div class="bento-item large govt" data-aos="fade-up">
-                <div class="bento-content">
+            <div class="bento-card large govt" data-aos="fade-right">
+                <div class="bento-info">
                     <i class="fas fa-landmark"></i>
-                    <h3>Govt. Contracts</h3>
-                    <p>Executing mission-critical public infrastructure.</p>
+                    <h3>Government Contracts</h3>
+                    <p>Class-A registered contractor specializing in mission-critical public works.</p>
                 </div>
             </div>
-            <div class="bento-item small redev" data-aos="fade-up" data-aos-delay="100">
-                <div class="bento-content">
+            <div class="bento-card redev" data-aos="fade-up">
+                <div class="bento-info">
                     <i class="fas fa-city"></i>
                     <h3>Redevelopment</h3>
+                    <p>Urban transformation through modern civil engineering.</p>
                 </div>
             </div>
-            <div class="bento-item small manpower" data-aos="fade-up" data-aos-delay="200">
-                <div class="bento-content">
+            <div class="bento-card manpower" data-aos="fade-left">
+                <div class="bento-info">
                     <i class="fas fa-users-gear"></i>
-                    <h3>Manpower</h3>
+                    <h3>Manpower Supply</h3>
+                    <p>Global logistics for certified technical labor.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="contact-modern">
-        <div class="form-container" data-aos="flip-left">
-            <h2>Project Inquiry</h2>
-            <form id="mb-form">
-                <input type="text" placeholder="Name / Organization" required>
-                <input type="email" placeholder="Official Email" required>
-                <select>
-                    <option>Government Tender Query</option>
-                    <option>Redevelopment Partnership</option>
-                    <option>Bulk Manpower Supply</option>
-                </select>
-                <textarea placeholder="Scope of Work..." rows="4"></textarea>
-                <button type="submit" class="submit-premium">Send Request</button>
-            </form>
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-about">
+                <img src="assets/images/logo.png" class="footer-logo">
+                <p>Leading the way in infrastructure innovation and government partnerships.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#divisions">Our Services</a>
+                <a href="#contact">Contact Support</a>
+            </div>
         </div>
-    </section>
+        <div class="footer-bottom">
+            <p>&copy; 2026 MB Group Infrastructure Ltd. All Rights Reserved.</p>
+            <p class="credits">Developed by: <a href="https://spydarr.com" target="_blank">Spydarr Web-Technologies - Innovative Digital Solutions</a></p>
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script>
+        AOS.init({ once: false, duration: 1000 });
+    </script>
 </body>
 </html>
